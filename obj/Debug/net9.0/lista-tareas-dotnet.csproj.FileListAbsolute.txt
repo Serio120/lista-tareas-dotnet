@@ -1,0 +1,15 @@
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\bin\Debug\net9.0\lista-tareas-dotnet.exe
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\bin\Debug\net9.0\lista-tareas-dotnet.deps.json
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\bin\Debug\net9.0\lista-tareas-dotnet.runtimeconfig.json
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\bin\Debug\net9.0\lista-tareas-dotnet.dll
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\bin\Debug\net9.0\lista-tareas-dotnet.pdb
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\lista-tareas-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\lista-tareas-dotnet.AssemblyInfoInputs.cache
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\lista-tareas-dotnet.AssemblyInfo.cs
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\lista-tareas-dotnet.csproj.CoreCompileInputs.cache
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\lista-tareas-dotnet.sourcelink.json
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\lista-tareas-dotnet.dll
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\refint\lista-tareas-dotnet.dll
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\lista-tareas-dotnet.pdb
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\lista-tareas-dotnet.genruntimeconfig.cache
+C:\Users\maria\My-GitHub-Project01\lista-tareas-dotnet\obj\Debug\net9.0\ref\lista-tareas-dotnet.dll
