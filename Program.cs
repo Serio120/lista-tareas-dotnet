@@ -7,7 +7,7 @@ namespace ListaTareas
     public class Tarea
     {
         public int Id { get; set; }
-        public string Descripcion { get; set; }
+        public string Descripcion { get; set; } = string.Empty;
         public bool Completada { get; set; }
         public DateTime FechaCreacion { get; set; }
 
@@ -120,14 +120,21 @@ namespace ListaTareas
             while (!salir)
             {
                 MostrarMenu();
-                string opcion = Console.ReadLine();
+                string? opcion = Console.ReadLine();
 
                 switch (opcion)
                 {
                     case "1":
                         Console.Write("Ingresa la descripción de la tarea: ");
-                        string descripcion = Console.ReadLine();
-                        gestor.AgregarTarea(descripcion);
+                        string? descripcion = Console.ReadLine();
+                        if (!string.IsNullOrEmpty(descripcion))
+                        {
+                            gestor.AgregarTarea(descripcion);
+                        }
+                        else
+                        {
+                            Console.WriteLine("La descripción no puede estar vacía.");
+                        }
                         break;
 
                     case "2":
@@ -136,7 +143,8 @@ namespace ListaTareas
 
                     case "3":
                         Console.Write("Ingresa el ID de la tarea a completar: ");
-                        if (int.TryParse(Console.ReadLine(), out int idCompletar))
+                        string? inputCompletar = Console.ReadLine();
+                        if (int.TryParse(inputCompletar, out int idCompletar))
                         {
                             gestor.MarcarCompletada(idCompletar);
                         }
@@ -148,7 +156,8 @@ namespace ListaTareas
 
                     case "4":
                         Console.Write("Ingresa el ID de la tarea a eliminar: ");
-                        if (int.TryParse(Console.ReadLine(), out int idEliminar))
+                        string? inputEliminar = Console.ReadLine();
+                        if (int.TryParse(inputEliminar, out int idEliminar))
                         {
                             gestor.EliminarTarea(idEliminar);
                         }
