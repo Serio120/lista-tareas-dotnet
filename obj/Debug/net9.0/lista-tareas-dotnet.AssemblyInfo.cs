@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lista-tareas-dotnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a81858e9af18c1d4e40990fe0df0d926367b0c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dca6d23c16d39d5ba81deb9464c30c3a1aaa9569")]
 [assembly: System.Reflection.AssemblyProductAttribute("lista-tareas-dotnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lista-tareas-dotnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
